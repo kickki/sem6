@@ -1,5 +1,7 @@
 package dip1.model;
 
+import dip1.model.util.Reportable;
+
 public class ReportItem {
     private final String description;
     private final float amount;

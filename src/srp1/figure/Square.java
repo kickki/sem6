@@ -3,7 +3,7 @@ package srp1.figure;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Square {
+public class Square extends Shape {
 
     private final List<Point> points;
     private final int side;
@@ -50,5 +50,9 @@ public class Square {
         }
 
         System.out.println(builder);
+    }
+
+    public int getSide() {
+        return side;
     }
 }
